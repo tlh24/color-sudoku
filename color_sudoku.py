@@ -21,7 +21,7 @@ class ColorSudoku:
         self.invalid_cells = set()
         self.display_numbers = tk.BooleanVar(value=True) # Checkbox state, default True
 
-        self.colors = ["red", "orange", "yellow", "yellow green", "spring green", "cyan", "dodger blue", "purple1", "violet"]
+        self.colors = ["red", "orange", "yellow", "lawn green", "green4", "cyan", "dodger blue", "purple1", "violet"]
 
         self.clues_radio = ttk.Radiobutton(root, text="Clues", variable=self.mode, value='clues', command=self.set_mode_clues)
         self.clues_radio.grid(row=0, column=0, padx=5, pady=5)
